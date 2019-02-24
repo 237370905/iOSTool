@@ -7,7 +7,6 @@
 //
 
 #import "WPPermenantThread.h"
-#import "WPThread.h"
 @interface WPPermenantThread()
 @property (nonatomic, strong)NSThread *innerThread;
 @property (nonatomic, assign, getter=isStopped)BOOL stopped;

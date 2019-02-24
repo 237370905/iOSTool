@@ -16,6 +16,7 @@
 		9B903485222241250055B3FE /* WPProxy1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903481222241250055B3FE /* WPProxy1.m */; };
 		9B903486222241250055B3FE /* WPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903482222241250055B3FE /* WPTimer.m */; };
 		9B903487222241250055B3FE /* WPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903483222241250055B3FE /* WPProxy.m */; };
+		9B90348E222244AA0055B3FE /* WPPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90348D222244AA0055B3FE /* WPPermenantThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9B903482222241250055B3FE /* WPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTimer.m; sourceTree = "<group>"; };
 		9B903483222241250055B3FE /* WPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPProxy.m; sourceTree = "<group>"; };
 		9B903484222241250055B3FE /* WPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTimer.h; sourceTree = "<group>"; };
+		9B90348C222244AA0055B3FE /* WPPermenantThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPermenantThread.h; sourceTree = "<group>"; };
+		9B90348D222244AA0055B3FE /* WPPermenantThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPermenantThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 		9B90346222223F620055B3FE /* iOSTool */ = {
 			isa = PBXGroup;
 			children = (
+				9B90348B222244940055B3FE /* Thread */,
 				9B90347E222240750055B3FE /* ResolveTimeStrong */,
 				9B90347B22223FFC0055B3FE /* Other */,
 				9B90347A22223FC80055B3FE /* Main */,
@@ -116,6 +120,15 @@
 				9B903482222241250055B3FE /* WPTimer.m */,
 			);
 			path = ResolveTimeStrong;
+			sourceTree = "<group>";
+		};
+		9B90348B222244940055B3FE /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				9B90348C222244AA0055B3FE /* WPPermenantThread.h */,
+				9B90348D222244AA0055B3FE /* WPPermenantThread.m */,
+			);
+			path = Thread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B90346822223F620055B3FE /* ViewController.m in Sources */,
+				9B90348E222244AA0055B3FE /* WPPermenantThread.m in Sources */,
 				9B90347322223F630055B3FE /* main.m in Sources */,
 				9B90346522223F620055B3FE /* AppDelegate.m in Sources */,
 				9B903487222241250055B3FE /* WPProxy.m in Sources */,

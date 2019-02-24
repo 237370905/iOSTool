@@ -17,6 +17,13 @@
 		9B903486222241250055B3FE /* WPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903482222241250055B3FE /* WPTimer.m */; };
 		9B903487222241250055B3FE /* WPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903483222241250055B3FE /* WPProxy.m */; };
 		9B90348E222244AA0055B3FE /* WPPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90348D222244AA0055B3FE /* WPPermenantThread.m */; };
+		9B903494222278240055B3FE /* WPLoopProgress2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903491222278240055B3FE /* WPLoopProgress2.m */; };
+		9B903495222278240055B3FE /* WPLoopProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903492222278240055B3FE /* WPLoopProgress.m */; };
+		9B903499222279A30055B3FE /* WPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B903498222279A30055B3FE /* WPDataSource.m */; };
+		9B90349F22227A760055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90349D22227A750055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.m */; };
+		9B9034A022227A760055B3FE /* WPCaptureSessionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90349E22227A750055B3FE /* WPCaptureSessionCoordinator.m */; };
+		9B9034A522227B820055B3FE /* UIView+DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9034A422227B820055B3FE /* UIView+DrawLine.m */; };
+		9B9034A822227BD30055B3FE /* UIView+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9034A722227BD30055B3FE /* UIView+CurrentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +45,20 @@
 		9B903484222241250055B3FE /* WPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTimer.h; sourceTree = "<group>"; };
 		9B90348C222244AA0055B3FE /* WPPermenantThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPermenantThread.h; sourceTree = "<group>"; };
 		9B90348D222244AA0055B3FE /* WPPermenantThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPermenantThread.m; sourceTree = "<group>"; };
+		9B903490222278240055B3FE /* WPLoopProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLoopProgress.h; sourceTree = "<group>"; };
+		9B903491222278240055B3FE /* WPLoopProgress2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPLoopProgress2.m; sourceTree = "<group>"; };
+		9B903492222278240055B3FE /* WPLoopProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPLoopProgress.m; sourceTree = "<group>"; };
+		9B903493222278240055B3FE /* WPLoopProgress2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLoopProgress2.h; sourceTree = "<group>"; };
+		9B903497222279A30055B3FE /* WPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPDataSource.h; sourceTree = "<group>"; };
+		9B903498222279A30055B3FE /* WPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPDataSource.m; sourceTree = "<group>"; };
+		9B90349B22227A750055B3FE /* WPCaptureSessionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCaptureSessionCoordinator.h; sourceTree = "<group>"; };
+		9B90349C22227A750055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCaptureSessionMovieFileOutputCoordinator.h; sourceTree = "<group>"; };
+		9B90349D22227A750055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCaptureSessionMovieFileOutputCoordinator.m; sourceTree = "<group>"; };
+		9B90349E22227A750055B3FE /* WPCaptureSessionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCaptureSessionCoordinator.m; sourceTree = "<group>"; };
+		9B9034A322227B820055B3FE /* UIView+DrawLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawLine.h"; sourceTree = "<group>"; };
+		9B9034A422227B820055B3FE /* UIView+DrawLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawLine.m"; sourceTree = "<group>"; };
+		9B9034A622227BD30055B3FE /* UIView+CurrentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CurrentViewController.h"; sourceTree = "<group>"; };
+		9B9034A722227BD30055B3FE /* UIView+CurrentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CurrentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +91,10 @@
 		9B90346222223F620055B3FE /* iOSTool */ = {
 			isa = PBXGroup;
 			children = (
+				9B9034A122227B4F0055B3FE /* Category */,
+				9B90349A22227A360055B3FE /* VideoRecoding */,
+				9B9034962222794A0055B3FE /* DataSource */,
+				9B90348F222277FD0055B3FE /* DowloadProgress */,
 				9B90348B222244940055B3FE /* Thread */,
 				9B90347E222240750055B3FE /* ResolveTimeStrong */,
 				9B90347B22223FFC0055B3FE /* Other */,
@@ -129,6 +154,56 @@
 				9B90348D222244AA0055B3FE /* WPPermenantThread.m */,
 			);
 			path = Thread;
+			sourceTree = "<group>";
+		};
+		9B90348F222277FD0055B3FE /* DowloadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				9B903490222278240055B3FE /* WPLoopProgress.h */,
+				9B903492222278240055B3FE /* WPLoopProgress.m */,
+				9B903493222278240055B3FE /* WPLoopProgress2.h */,
+				9B903491222278240055B3FE /* WPLoopProgress2.m */,
+			);
+			path = DowloadProgress;
+			sourceTree = "<group>";
+		};
+		9B9034962222794A0055B3FE /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				9B903497222279A30055B3FE /* WPDataSource.h */,
+				9B903498222279A30055B3FE /* WPDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		9B90349A22227A360055B3FE /* VideoRecoding */ = {
+			isa = PBXGroup;
+			children = (
+				9B90349B22227A750055B3FE /* WPCaptureSessionCoordinator.h */,
+				9B90349E22227A750055B3FE /* WPCaptureSessionCoordinator.m */,
+				9B90349C22227A750055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.h */,
+				9B90349D22227A750055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.m */,
+			);
+			path = VideoRecoding;
+			sourceTree = "<group>";
+		};
+		9B9034A122227B4F0055B3FE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9B9034A222227B680055B3FE /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9B9034A222227B680055B3FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B9034A322227B820055B3FE /* UIView+DrawLine.h */,
+				9B9034A422227B820055B3FE /* UIView+DrawLine.m */,
+				9B9034A622227BD30055B3FE /* UIView+CurrentViewController.h */,
+				9B9034A722227BD30055B3FE /* UIView+CurrentViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,10 +279,17 @@
 				9B90346822223F620055B3FE /* ViewController.m in Sources */,
 				9B90348E222244AA0055B3FE /* WPPermenantThread.m in Sources */,
 				9B90347322223F630055B3FE /* main.m in Sources */,
+				9B9034A522227B820055B3FE /* UIView+DrawLine.m in Sources */,
+				9B90349F22227A760055B3FE /* WPCaptureSessionMovieFileOutputCoordinator.m in Sources */,
 				9B90346522223F620055B3FE /* AppDelegate.m in Sources */,
+				9B903495222278240055B3FE /* WPLoopProgress.m in Sources */,
+				9B903494222278240055B3FE /* WPLoopProgress2.m in Sources */,
 				9B903487222241250055B3FE /* WPProxy.m in Sources */,
 				9B903485222241250055B3FE /* WPProxy1.m in Sources */,
 				9B903486222241250055B3FE /* WPTimer.m in Sources */,
+				9B903499222279A30055B3FE /* WPDataSource.m in Sources */,
+				9B9034A022227A760055B3FE /* WPCaptureSessionCoordinator.m in Sources */,
+				9B9034A822227BD30055B3FE /* UIView+CurrentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,8 @@
 //  WPPermenantThread.h
 //  ThreadTool
 //
-//  Created by 陈文鹏 on 2019/2/21.
-//  Copyright © 2019 陈文鹏. All rights reserved.
+//  Created by wp on 2019/2/21.
+//  Copyright © 2019 wp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
